@@ -15,10 +15,10 @@ import SummaryTab from "./components/SummaryTab";
 import MethodologyTab from "./components/MethodologyTab";
 
 export default function App() {
-  const [currentAge, setCurrentAge] = useState(28);
+  const [currentAge, setCurrentAge] = useState(26);
   const [retirementAge, setRetirementAge] = useState(46);
-  const [expensesUntilAge, setExpensesUntilAge] = useState(80);
-  const [currentSavings, setCurrentSavings] = useState(800000);
+  const [expensesUntilAge, setExpensesUntilAge] = useState(81);
+  const [currentSavings, setCurrentSavings] = useState(900000);
   const [monthlyInvestment, setMonthlyInvestment] = useState(40000);
   const [stepUp, setStepUp] = useState(5);
   const [postRetirementMonthly, setPostRetirementMonthly] = useState(100000);
